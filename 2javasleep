@@ -1,0 +1,22 @@
+Java Sleep
+this occurs in steps
+System.out.printIn("first");
+System.out.printIn("second");
+Thread.sleep(1000);
+System.out.printIn("third");
+
+The output would be
+first
+second
+third
+
+
+this way is happens at the same time.
+Node sleep
+console.log("first");
+setTimeout(function(){
+console.log("third")}, 1000)
+})
+console.log("second")
+
+output here all at once

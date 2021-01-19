@@ -1,0 +1,14 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "vm",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}
